@@ -1,0 +1,22 @@
+{
+  "name": "copy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run build && node ./build/bundle-back.js",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jared Murphy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.3"
+  },
+  "devDependencies": {
+    "path": "0.12.7",
+    "webpack": "4.16.5",
+    "webpack-cli": "3.1.0",
+    "webpack-node-externals": "1.7.2"
+  }
+}
